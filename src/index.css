@@ -13,7 +13,27 @@
     @apply bg-[#EEF2FF];
   }
 
+  .textPrimary {
+    @apply text-[#4A72FF];
+  }
+
+  .textSecondary {
+    @apply text-[#0C1B4D];
+  }
+
+  .bgPrimary {
+    @apply bg-[#d9e3ff];
+  }
+
+  .bgSecondary {
+    @apply bg-[#4A72FF];
+  }
+
   .buttonPrimary {
-    @apply bg-[#4A72FF] py-2 px-5 rounded-md text-white font-semibold;
+    @apply bg-[#4A72FF] py-2 px-5 rounded-md text-white font-semibold shadow-lg;
+  }
+
+  .buttonSecondary {
+    @apply bg-[#d9e3ff] py-2 px-5 rounded-md text-[#4A72FF] font-semibold shadow-lg;
   }
 }
