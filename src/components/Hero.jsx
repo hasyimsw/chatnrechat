@@ -12,7 +12,7 @@ import user from '../assets/user.png'
 
 const hero = () => {
   return (
-    <div className='w-full h-full'>
+    <div name='beranda' className='w-full h-full'>
         <div className='max-w-[1240px] mx-auto px-4'>
             {/* navbar */}
             <Navbar />
@@ -49,11 +49,11 @@ const hero = () => {
                 </div>
             </div>
             <div className='flex items-center justify-around md:max-w-5xl mx-auto h-20 md:h-28 lg:px-20 bgPrimary rounded-md'>
-               <img className='h-5 md:h-7' src={heroImage2} alt="/" /> 
-               <img className='h-5 md:h-7' src={heroImage3} alt="/" /> 
-               <img className='h-5 md:h-7' src={heroImage4} alt="/" /> 
-               <img className='h-5 md:h-7' src={heroImage5} alt="/" /> 
-               <img className='h-5 md:h-7' src={heroImage6} alt="/" /> 
+               <img className='h-4 sm:h-5 md:h-7' src={heroImage2} alt="/" /> 
+               <img className='h-4 sm:h-5 md:h-7' src={heroImage3} alt="/" /> 
+               <img className='h-4 sm:h-5 md:h-7' src={heroImage4} alt="/" /> 
+               <img className='h-4 sm:h-5 md:h-7' src={heroImage5} alt="/" /> 
+               <img className='h-4 sm:h-5 md:h-7' src={heroImage6} alt="/" /> 
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@ import techImage4 from '../assets/techImage4.png'
 
 const Tech = () => {
   return (
-    <div className='max-w-[1240px] px-4 mx-auto py-28'>
+    <div name='teknologi' className='max-w-[1240px] px-4 mx-auto py-28'>
         <div className='grid md:grid-cols-2 gap-2 items-center'>
             <img src={techImage} alt="/" />
             <div>

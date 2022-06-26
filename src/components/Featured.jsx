@@ -5,7 +5,7 @@ import featuredImage3 from '../assets/featuredImage3.png'
 
 const Featured = () => {
   return (
-    <div className='max-w-[1240px] px-4 mx-auto py-32'>
+    <div name='fitur' className='max-w-[1240px] px-4 mx-auto py-32'>
         <div className='text-center pb-28'>
             <h3 className='text-lg textSecondary'>NGGAK HARUS SIH SEBENERNYA</h3>
             <h1 className='text-4xl textSecondary py-4'>Kenapa Harus Pakai Chat N' Rechat?</h1>
