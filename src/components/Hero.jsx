@@ -26,7 +26,7 @@ const hero = () => {
                         <button className='buttonPrimary flex items-center px-8'>Register <img className='w-5 h-5 ml-2' src={arrowRight} alt="/" /></button>
                         <button className='buttonSecondary px-8'>Learn More</button>
                     </div>
-                    <div className='flex items-center space-x-10 pt-4 pb-8'>
+                    <div className='flex items-center space-x-5 pt-4 pb-8'>
                         <div className='flex'>
                             <img className='w-6 h-6' src={download} alt="/" />
                             <div className='ml-4'>

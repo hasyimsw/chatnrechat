@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div className='py-10 md:py-0'>
                 <h3 className='text-lg font-bold'>Tetep Terhubung</h3>
-                <p className='text-slate-600 py-4'>Lihat kami pansos di sosial media berikut:</p>
+                <p className='text-slate-600 py-6'>Lihat kami pansos di sosial media berikut:</p>
                 <div className='flex items-center space-x-2'>
                     <div className='p-2 rounded-md bg-[#c2c7d2]'>
                         <FaInstagram className='w-6 h-6' />
